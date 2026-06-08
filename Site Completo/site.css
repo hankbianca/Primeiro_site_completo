@@ -2,7 +2,25 @@ body {
     background-color:khaki
 }
 
-.container {
-    background-color:brown;
+.topoShanks {
+    background-image: url("../imagem/shanksv2.jpg");
+    opacity: 70%;
+    text-align: center;
+    padding:30px 10px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    
+}
 
+.topoShanks h1 {
+    font-family:Montserrat;
+    font-size: 85px;
+    
+}
+
+.topoShanks h2 {
+    font-family:system-ui, sans-serif ;
 }
