@@ -1,19 +1,19 @@
 body {
-    background-color:khaki
-}
+        background-image: url("../imagem/mapa.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 50px;
+    }
 
 .topoShanks {
-    background-image: url("../imagem/shanksv2.jpg");
-    opacity: 70%;
-    text-align: center;
-    padding:30px 10px;
-    border-radius: 15px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px;
-    
-}
+        width: 70%;
+        min-height: 100vh;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.85);
+        padding: 30px;
+        text-align: center;
+    }
 
 .topoShanks h1 {
     font-family:Montserrat;
