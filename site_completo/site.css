@@ -73,3 +73,40 @@ body{
     background-color: #b22222;
     transform: translateY(-5px);
 }
+
+.hidden-checkbox {
+    display: none;
+}
+
+.image-side {
+    display: inline-block;
+    width: 400px;
+    height: 700px;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: transform 0.2s, filter 0.2s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    margin-top: -290px;
+    transition: transform 0.3s;
+}
+
+.image-side:hover {
+    transform: scale(1.05);
+}
+
+.image-side:active {
+    transform: translateY(-10px);
+}
+
+.imagem_shanks {
+    background-image: url("imagem/shanks4.png");
+}
+
+.hidden-checkbox:checked + .imagem_shanks {
+    background-image: url("imagem/shanksmanga.png");
+    background-position-y: top;
+}
