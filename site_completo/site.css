@@ -98,6 +98,10 @@ body{
     transform: scale(1.05);
 }
 
+.link {
+    color: #8B0000;
+}
+
 .image-side:active {
     transform: translateY(-10px);
 }
